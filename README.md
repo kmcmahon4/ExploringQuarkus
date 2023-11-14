@@ -21,4 +21,3 @@
 ### - Maven 3.9.5
 ### - IDE that Supports Java 21 (e.g. Intellij 2023.3 EAP)
 ### - Docker 4.25.0
-### - MySQL 8.0
