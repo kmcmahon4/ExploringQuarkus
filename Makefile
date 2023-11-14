@@ -8,8 +8,5 @@ run:
 build_app:
 	mvnw package -Dnative -Dquarkus.native.container-build=true
 
-
-run_image:
-	docker run -i --rm -p 8080:8080 myapp
-
-
+build_dev:
+	mvnw compile quarkus:dev
