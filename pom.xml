@@ -4,8 +4,13 @@
   <groupId>org.acme</groupId>
   <artifactId>code-with-quarkus</artifactId>
   <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>my-app-api</module>
+        <module>my-app-server</module>
+    </modules>
 
-  <properties>
+    <properties>
     <compiler-plugin.version>3.11.0</compiler-plugin.version>
     <maven.compiler.release>21</maven.compiler.release>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -51,12 +56,6 @@
       <groupId>io.rest-assured</groupId>
       <artifactId>rest-assured</artifactId>
       <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.projectlombok</groupId>
-      <artifactId>lombok</artifactId>
-      <version>RELEASE</version>
-      <scope>compile</scope>
     </dependency>
   </dependencies>
 
