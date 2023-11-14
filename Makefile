@@ -6,7 +6,7 @@ run:
 	docker-compose up
 
 build_app:
-	mvnw package -Dnative -Dquarkus.native.container-build=true
+	mvn package -Dnative -Dquarkus.native.container-build=true
 
 build_dev:
-	mvnw compile quarkus:dev
+	mvn compile quarkus:dev
