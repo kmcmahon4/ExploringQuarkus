@@ -10,3 +10,6 @@ build_app:
 
 build_dev:
 	mvn compile quarkus:dev
+
+image:
+	docker build -t myquarkusapp .
