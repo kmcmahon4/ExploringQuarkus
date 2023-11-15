@@ -1,4 +1,4 @@
-## Local Dependencies:
+## Dependencies:
 ### - [Java 17](https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/downloads-list.html)
 ### - [Maven 3.9.5](https://maven.apache.org/install.html)
 ### - [Docker 4.25.0](https://docs.docker.com/engine/install/)
