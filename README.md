@@ -17,7 +17,6 @@
  ```
 
 ## DEPENDENCIES:
-### - Java 21
+### - Java 17
 ### - Maven 3.9.5
-### - IDE that Supports Java 21 (e.g. Intellij 2023.3 EAP)
 ### - Docker 4.25.0
